@@ -287,6 +287,29 @@ Systematic AI trustworthiness testing using **OWASP AI Testing Guide v1** (2025)
 
 ---
 
+#### 🇪🇺 **gdpr-audit** - GDPR Compliance Audit
+
+```bash
+npx skills add mastepanoski/claude-skills --skill gdpr-audit
+```
+
+Technical GDPR audit of **code, plans, schemas, or IaC** using a detection-guide methodology:
+- Builds a **processing map**, then emits findings with **GDPR article citations**, severity, confidence, and evidence
+- Distinguishes **confirmed issues, likely issues, evidence gaps, and advisories** — never invents policy gaps from thin air
+- 15 detection guides in `references/` (lawful basis, consent, transfers, DSAR, DPIA, profiling/AI, …)
+- Built-in disclaimer: a technical audit, **not** legal advice or a compliance determination
+
+**Best for**: pre-DPIA scoping, repo/plan privacy review, vendor/SDK onboarding, data-protection gap analysis
+
+**Example usage:**
+```
+"Run a GDPR audit on this repository"
+"Review this database schema for personal data handling"
+"Check our Terraform for international data transfer issues"
+```
+
+---
+
 #### **ai-assessment-scale** - AI Contribution Measurement
 **[→ View on skills.sh](https://skills.sh/mastepanoski/claude-skills/ai-assessment-scale)**
 
@@ -356,6 +379,7 @@ The AI will provide:
 | AI risk management | `nist-ai-rmf` |
 | LLM/GenAI security | `owasp-llm-top10` |
 | AI trustworthiness testing | `owasp-ai-testing` |
+| GDPR / data-protection audit | `gdpr-audit` |
 | AI contribution transparency | `ai-assessment-scale` |
 
 **Pro tip**: Start with `ux-audit-rethink` for comprehensive evaluation, then use specialized skills to deep-dive into specific areas.

@@ -152,6 +152,11 @@ feat(wcag): Added comprehensive audit    # Capitalized, not imperative
 
 **AI Governance & Security:**
 7. `iso-42001-ai-governance` - AI governance (ISO 42001:2023): Risk management, ethics, security, transparency, regulatory compliance (EU AI Act, GDPR)
+8. `nist-ai-rmf` - AI risk assessment (NIST AI RMF 1.0): Govern, Map, Measure, Manage functions for trustworthy AI
+9. `owasp-llm-top10` - Security audit for LLM/GenAI apps (OWASP Top 10 for LLM Apps 2025)
+10. `owasp-ai-testing` - AI trustworthiness testing (OWASP AI Testing Guide v1): 32 test cases across 4 layers
+11. `gdpr-audit` - Technical GDPR audit of code, plans, schemas, or IaC: processing map + article-cited findings (not legal advice)
+12. `ai-assessment-scale` - Measure AI contribution to a project using the AI Assessment Scale (AIAS) 5-level framework
 
 ## Skill Quality Standards
 

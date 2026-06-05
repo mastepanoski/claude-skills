@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- `gdpr-audit` skill: technical GDPR audit of code, plans, schemas, and IaC. Builds a processing map, then emits article-cited findings (confirmed / likely / evidence gap / advisory) with severity and confidence, backed by 15 detection guides in `references/`. Explicitly not legal advice or a compliance determination.
+- `USAGE.md`: recommended order for applying the audit skills, split into a UX/UI track and an AI-governance & security track, with a "when to deviate" section.
+- Brought the `CLAUDE.md` "Current Skills" list up to date (7 → 12 skills).
+
 ### Changed
 - Applied progressive disclosure to the two largest skills, splitting detailed content into `references/` per the Agent Skills structure (SKILL.md keeps workflow + pointers):
   - `iso-42001-ai-governance` (1230 → 201 lines): moved the step-by-step audit procedure to `references/audit-procedure.md` and the report template + compliance checklist to `references/report-template.md`.
