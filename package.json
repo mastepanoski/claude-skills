@@ -1,6 +1,6 @@
 {
   "name": "@mastepanoski/claude-skills",
-  "version": "1.7.1",
+  "version": "1.8.0",
   "description": "UX/UI evaluation, AI governance, and AI security skills for AI coding assistants. Audit interfaces with Nielsen heuristics, WCAG, Don Norman principles. Assess AI risk with NIST AI RMF, ISO 42001, OWASP LLM Top 10, and OWASP AI Testing Guide.",
   "type": "module",
   "keywords": [

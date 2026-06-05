@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.8.0] - 2026-06-05
+
 ### Added
 - `gdpr-audit` skill: technical GDPR audit of code, plans, schemas, and IaC. Builds a processing map, then emits article-cited findings (confirmed / likely / evidence gap / advisory) with severity and confidence, backed by 15 detection guides in `references/`. Explicitly not legal advice or a compliance determination.
 - `USAGE.md`: recommended order for applying the audit skills, split into a UX/UI track and an AI-governance & security track, with a "when to deviate" section.
@@ -268,7 +270,8 @@ fix(nielsen): correct severity rating in example
 docs(readme): update installation instructions
 ```
 
-[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.7.1...HEAD
+[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.8.0...HEAD
+[1.8.0]: https://github.com/mastepanoski/claude-skills/compare/v1.7.1...v1.8.0
 [1.7.1]: https://github.com/mastepanoski/claude-skills/compare/v1.7.0...v1.7.1
 [1.7.0]: https://github.com/mastepanoski/claude-skills/compare/v1.6.0...v1.7.0
 [1.6.0]: https://github.com/mastepanoski/claude-skills/compare/v1.5.0...v1.6.0

@@ -1,8 +1,8 @@
 # @mastepanoski/claude-skills
 
-![Version](https://img.shields.io/badge/version-1.7.1-blue)
+![Version](https://img.shields.io/badge/version-1.8.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Skills](https://img.shields.io/badge/skills-11-orange)
+![Skills](https://img.shields.io/badge/skills-12-orange)
 ![Agent Skills](https://img.shields.io/badge/agent%20skills-standard-purple)
 ![Commits](https://img.shields.io/github/commit-activity/m/mastepanoski/claude-skills)
 ![Last Commit](https://img.shields.io/github/last-commit/mastepanoski/claude-skills)
