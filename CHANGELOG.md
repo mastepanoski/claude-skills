@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.9.2] - 2026-10-10
+
 ### Changed
 - `scripts/validate.js`: frontmatter values are now checked for constructs a real YAML parser rejects (unquoted `: `, ` #`, leading indicators, unterminated quotes), so errors like the 1.9.1 `information-architecture-audit` one fail validation instead of the install.
 
