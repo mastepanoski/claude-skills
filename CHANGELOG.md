@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.9.1] - 2026-10-10
+
+### Fixed
+- `information-architecture-audit`: the `description` frontmatter contained an unquoted `: `, which broke YAML parsing so `npx skills add` skipped the skill. Replaced with an em dash.
+
 ## [1.9.0] - 2026-10-10
 
 ### Added
