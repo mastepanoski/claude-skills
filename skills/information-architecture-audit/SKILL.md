@@ -1,6 +1,6 @@
 ---
 name: information-architecture-audit
-description: Audit or design the information architecture of a site/app: organization, labeling, navigation, search, content inventory, sitemaps, card sorting and tree testing, with prioritized findings.
+description: Audit or design the information architecture of a site/app — organization, labeling, navigation, search, content inventory, sitemaps, card sorting and tree testing, with prioritized findings.
 ---
 
 # Information Architecture Audit
