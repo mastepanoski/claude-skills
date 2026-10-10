@@ -157,6 +157,7 @@ feat(wcag): Added comprehensive audit    # Capitalized, not imperative
 10. `owasp-ai-testing` - AI trustworthiness testing (OWASP AI Testing Guide v1): 32 test cases across 4 layers
 11. `gdpr-audit` - Technical GDPR audit of code, plans, schemas, or IaC: processing map + article-cited findings (not legal advice)
 12. `ai-assessment-scale` - Measure AI contribution to a project using the AI Assessment Scale (AIAS) 5-level framework
+13. `information-architecture-audit` - Information architecture (Rosenfeld/Morville four systems, 8 principles): organization, labeling, navigation, search, card sorting, tree testing
 
 ## Skill Quality Standards
 

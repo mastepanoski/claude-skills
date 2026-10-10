@@ -2,7 +2,7 @@
 
 ![Version](https://img.shields.io/badge/version-1.8.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Skills](https://img.shields.io/badge/skills-12-orange)
+![Skills](https://img.shields.io/badge/skills-13-orange)
 ![Agent Skills](https://img.shields.io/badge/agent%20skills-standard-purple)
 ![Commits](https://img.shields.io/github/commit-activity/m/mastepanoski/claude-skills)
 ![Last Commit](https://img.shields.io/github/last-commit/mastepanoski/claude-skills)
@@ -140,6 +140,24 @@ Evaluate interfaces using **Don Norman's 7 principles** from *The Design of Ever
 "Check if users can discover key features in my app"
 "Evaluate the affordances in this mobile interface"
 ```
+
+---
+
+#### **information-architecture-audit** - Structure, Labels, Navigation, Search
+**[→ View on skills.sh](https://skills.sh/mastepanoski/claude-skills/information-architecture-audit)**
+
+```bash
+npx skills add mastepanoski/claude-skills --skill information-architecture-audit
+```
+
+Audit or design the **information architecture** using the four-system model (organization, labeling, navigation, search) and 8 IA principles:
+- Content inventory and audit (keep / update / merge / remove / gap)
+- Organization schemes, hierarchy breadth/depth, growth
+- Label consistency, clarity, and convention
+- Global/local/contextual navigation, breadcrumbs, search and facets
+- Card sorting and tree testing plan, sitemap proposal
+
+**Best for**: Findability problems, redesigns, new sitemaps, navigation overhauls
 
 ---
 
@@ -374,6 +392,7 @@ The AI will provide:
 | Legal accessibility compliance | `wcag-accessibility-audit` |
 | Test if interface is intuitive | `don-norman-principles-audit` |
 | Analyze specific user task | `cognitive-walkthrough` |
+| Fix navigation, labels, findability | `information-architecture-audit` |
 | Polish visual design | `ui-design-review` |
 | AI system governance | `iso-42001-ai-governance` |
 | AI risk management | `nist-ai-rmf` |

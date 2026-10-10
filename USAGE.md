@@ -24,11 +24,12 @@ that matches your target and skip passes that don't earn their keep.
 | # | Skill | Why here |
 |---|-------|----------|
 | 1 | `ux-audit-rethink` | Holistic framing first — users, goals, the 7 factors. Sets context for everything after. |
-| 2 | `don-norman-principles-audit` | Foundational design principles (affordances, mapping, conceptual model). Catches structural flaws. |
-| 3 | `nielsen-heuristics-audit` | Systematic 10-heuristic inspection with severity ratings. The usability workhorse. |
-| 4 | `ui-design-review` | Visual layer — typography, color, spacing, hierarchy. Polish *after* structure is sound. |
-| 5 | `wcag-accessibility-audit` | Accessibility conformance (A/AA/AAA). Checklist-driven, so it can also run independently/in parallel. |
-| 6 | `cognitive-walkthrough` | Last — a *targeted* deep-dive on specific critical tasks the earlier passes helped you identify. |
+| 2 | `information-architecture-audit` | Structure, labeling, navigation, and search. Fix findability before judging visuals or task flows. |
+| 3 | `don-norman-principles-audit` | Foundational design principles (affordances, mapping, conceptual model). Catches structural flaws. |
+| 4 | `nielsen-heuristics-audit` | Systematic 10-heuristic inspection with severity ratings. The usability workhorse. |
+| 5 | `ui-design-review` | Visual layer — typography, color, spacing, hierarchy. Polish *after* structure is sound. |
+| 6 | `wcag-accessibility-audit` | Accessibility conformance (A/AA/AAA). Checklist-driven, so it can also run independently/in parallel. |
+| 7 | `cognitive-walkthrough` | Last — a *targeted* deep-dive on specific critical tasks the earlier passes helped you identify. |
 
 ## Track B — auditing an AI system (governance & security)
 

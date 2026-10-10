@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- `information-architecture-audit` skill: audit or design information architecture using the four-system model (organization, labeling, navigation, search) and eight IA principles. Includes content inventory, structure/labeling/navigation/search checks, card sorting and tree testing plans, and a report template, with detail in `references/`.
+
+### Changed
+- Applied progressive disclosure to the remaining skills over 500 lines, moving detailed criteria, procedures, and report templates into `references/` (SKILL.md now keeps workflow + pointers): `ux-audit-rethink` (1126 → ~270 lines), `ui-design-review` (1059 → ~165), `wcag-accessibility-audit` (787 → ~300), `owasp-llm-top10` (705 → ~215), `nist-ai-rmf` (574 → ~230), `cognitive-walkthrough` (563 → ~270), `nielsen-heuristics-audit` (510 → ~210).
+- `USAGE.md`: added `information-architecture-audit` to Track A (after the holistic audit) and renumbered.
+
 ## [1.8.0] - 2026-06-05
 
 ### Added
