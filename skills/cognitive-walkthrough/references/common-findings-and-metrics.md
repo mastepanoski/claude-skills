@@ -1,0 +1,55 @@
+# Common Walkthrough Findings and Success Metrics
+
+Typical issues surfaced by cognitive walkthroughs and metrics for judging the outcome.
+
+## Common Walkthrough Findings
+
+### Typical Issues Discovered:
+
+**Discoverability Problems:**
+- Hidden buttons or controls
+- Unlabeled icons
+- Non-standard locations
+- Poor visual hierarchy
+
+**Unclear Affordances:**
+- Links that don't look clickable
+- Buttons that look disabled
+- Confusing icon meanings
+- Misleading labels
+
+**Feedback Failures:**
+- No confirmation after actions
+- Unclear error messages
+- No progress indicators
+- Silent failures
+
+**Mental Model Mismatches:**
+- Unexpected behavior
+- Counter-intuitive flows
+- Inconsistent patterns
+- Violates conventions
+
+**Cognitive Load:**
+- Too many choices
+- Requiring memory of previous screens
+- Complex multi-step processes
+- Unclear next steps
+
+---
+
+## Success Metrics
+
+Measure walkthrough effectiveness:
+
+**Before Walkthrough:**
+- Baseline task completion rate
+- Average time on task
+- Error rate
+- User satisfaction scores
+
+**After Implementing Fixes:**
+- Improved completion rate (target: +20-40%)
+- Reduced time on task (target: -30-50%)
+- Lower error rate (target: -40-60%)
+- Higher satisfaction (target: +1-2 points on 5-point scale)
