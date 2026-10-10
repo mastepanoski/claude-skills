@@ -14,6 +14,29 @@ function warn(message) {
   warnings.push(message);
 }
 
+// Real YAML parsers (used by `npx skills add`) reject these in plain scalars;
+// catch them here so a broken frontmatter fails validation instead of the install.
+function checkScalar(value, key, file) {
+  if (!value) return;
+  const quote = value[0];
+  if (quote === '"' || quote === "'") {
+    if (value.length < 2 || value[value.length - 1] !== quote) {
+      fail(`${file}: ${key} has an unterminated ${quote} quote`);
+    }
+    return;
+  }
+  if (/^[|>]/.test(value)) return;
+  if (/^[\[{&*!%@`]/.test(value)) {
+    fail(`${file}: ${key} starts with YAML indicator "${value[0]}"; wrap the value in quotes`);
+  }
+  if (/:(\s|$)/.test(value)) {
+    fail(`${file}: ${key} contains ": " which YAML reads as a nested mapping; wrap the value in quotes or rephrase`);
+  }
+  if (/\s#/.test(value)) {
+    fail(`${file}: ${key} contains " #" which YAML reads as a comment; wrap the value in quotes`);
+  }
+}
+
 function parseFrontmatter(content, file) {
   if (!content.startsWith("---\n")) {
     fail(`${file}: missing opening YAML frontmatter`);
@@ -35,6 +58,7 @@ function parseFrontmatter(content, file) {
       fail(`${file}: unsupported frontmatter line "${line}"`);
       continue;
     }
+    checkScalar(match[2].trim(), match[1], file);
     data[match[1]] = match[2].replace(/^["']|["']$/g, "").trim();
   }
   return data;
