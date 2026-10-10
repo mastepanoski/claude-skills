@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.9.0] - 2026-10-10
+
 ### Added
 - `information-architecture-audit` skill: audit or design information architecture using the four-system model (organization, labeling, navigation, search) and eight IA principles. Includes content inventory, structure/labeling/navigation/search checks, card sorting and tree testing plans, and a report template, with detail in `references/`.
 
@@ -277,7 +279,8 @@ fix(nielsen): correct severity rating in example
 docs(readme): update installation instructions
 ```
 
-[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.8.0...HEAD
+[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.9.0...HEAD
+[1.9.0]: https://github.com/mastepanoski/claude-skills/compare/v1.8.0...v1.9.0
 [1.8.0]: https://github.com/mastepanoski/claude-skills/compare/v1.7.1...v1.8.0
 [1.7.1]: https://github.com/mastepanoski/claude-skills/compare/v1.7.0...v1.7.1
 [1.7.0]: https://github.com/mastepanoski/claude-skills/compare/v1.6.0...v1.7.0
