@@ -18,7 +18,8 @@ Copy-ready output structure for the report. Use it when assembling the final del
 ## Executive Summary
 
 ### Task Success Prediction
-**Estimated Success Rate (First Attempt)**: [X]% of target users
+**Predicted First-Attempt Success**: [Likely / Possible / Unlikely]
+*(Note: Use a qualitative rating based on walkthrough findings. Only report a percentage if derived from empirical usability testing or analytics data, and cite the source).*
 
 ### Critical Findings
 1. [Most critical issue]
@@ -96,7 +97,7 @@ Copy-ready output structure for the report. Use it when assembling the final del
 **1. Action 7: Create password with complexity requirements**
 - **Problem**: Password requirements not shown until after submission fails
 - **Impact**: Users guess rules, get frustrated by repeated errors
-- **Affected Users**: 70-80% of novices
+- **Affected Users**: High risk for most novices (qualitative assessment: severe barrier due to hidden constraints)
 - **Severity**: Critical
 - **Fix Priority**: P0 (Must fix)
 - **Recommendation**: Show requirements inline before user types
@@ -104,7 +105,7 @@ Copy-ready output structure for the report. Use it when assembling the final del
 **2. Action 12: Find "Add to Wishlist" button**
 - **Problem**: Icon-only button (heart icon) with no label, not obvious
 - **Impact**: Users don't see it or don't understand what it does
-- **Affected Users**: 50-60% of first-time users
+- **Affected Users**: Broad — affects first-time users unfamiliar with icon conventions
 - **Severity**: High
 - **Fix Priority**: P1 (Should fix)
 - **Recommendation**: Add text label "Add to Wishlist" next to icon
@@ -119,17 +120,17 @@ Copy-ready output structure for the report. Use it when assembling the final del
 
 ---
 
-## Success Probability by User Type
+## Predicted Success by User Type
 
-| User Type | Estimated Success Rate | Time to Complete | Confidence |
-|-----------|------------------------|------------------|------------|
-| **Novice** | 45% | 8-12 minutes | Low frustration tolerance |
-| **Intermediate** | 75% | 4-6 minutes | Moderate confidence |
-| **Expert** | 95% | 2-3 minutes | High efficiency |
+| User Type | Predicted Success (First Attempt) | Expected Cognitive Friction | Key Vulnerabilities |
+|-----------|-----------------------------------|----------------------------|---------------------|
+| **Novice** | Unlikely | High (frequent pauses, trial-and-error, high abort risk) | Blocked at Actions 1 & 7 |
+| **Intermediate** | Possible | Moderate (hesitation, recoverable errors) | Delayed at Action 7 |
+| **Expert** | Likely | Low (routine execution, minimal friction) | Minor pause on icon affordance |
 
-**Target**: Novices should have ≥80% success rate with ≤5 minutes time.
+*(Note: Cognitive Walkthrough is an analytical inspection method, not an empirical test. Use qualitative ratings — Likely, Possible, Unlikely — based on cognitive friction and mental model alignment. Do not invent percentage success rates or task completion times unless reporting empirical usability test data or telemetry.)*
 
-**Gap**: Current design falls short for novices by 35 percentage points.
+**Overall Assessment**: Current design presents severe learnability barriers for novices. Primary goal of recommendations is shifting novice success from **Unlikely** to **Likely**.
 
 ---
 
@@ -158,20 +159,20 @@ Copy-ready output structure for the report. Use it when assembling the final del
 
 **1. Show password requirements inline (Action 7)**
 - **Why**: Eliminates #1 failure point
-- **Impact**: +25% success rate for novices
+- **Impact**: Critical — resolves primary task blocker, removes blind guessing
 - **Effort**: Low (4 hours)
 
 **2. Add text label to wishlist button (Action 12)**
 - **Why**: Makes feature discoverable
-- **Impact**: +15% task completion
+- **Impact**: High — establishes clear signifier and affordance for first-time users
 - **Effort**: Low (2 hours)
 
 **3. Increase "Sign Up" button contrast (Action 1)**
 - **Why**: Accessibility + discoverability
-- **Impact**: +10% users find starting point
+- **Impact**: High — ensures entry point meets WCAG AA visibility
 - **Effort**: Low (1 hour)
 
-**Total Phase 1 Impact**: +50% novice success rate (45% → 67.5%)
+**Expected Phase 1 Outcome**: Resolves all critical blockers; shifts predicted novice first-attempt success from **Unlikely** to **Likely**. *(Use qualitative impact assessments unless backed by measured usability benchmark data.)*
 
 ---
 
@@ -236,10 +237,11 @@ Based on walkthrough findings, consider these alternative approaches:
 - **Method**: Cognitive Walkthrough (Wharton et al., 1994)
 - **Evaluator**: AI agent simulating UX expert
 - **Perspective**: Novice user (first-time, no training)
-- **Limitations**:
-  - Based on interface analysis, not actual user behavior
-  - Success rates are estimates, not measured data
-  - Should be validated with real user testing
+- **Limitations & Reporting Standard**:
+  - Inspection-based cognitive simulation, not an empirical test with live participants.
+  - Ratings represent qualitative expert predictions of friction and learnability, not measured statistics.
+  - Success likelihood is evaluated qualitatively (Likely / Possible / Unlikely). Quantitative percentages and completion times should never be invented; they require empirical usability testing or telemetry.
+  - Findings should be validated through usability testing with target users.
 
 ---
 
