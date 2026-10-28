@@ -176,9 +176,10 @@ After walking through all actions:
    - **Minor issues**: Small delays or confusion
    - **Cognitive load**: Mental effort required
 
-3. **Calculate success likelihood:**
-   - Estimate % of target users who would complete task on first try
+3. **Estimate success likelihood:**
+   - Assess overall likelihood of first-attempt success qualitatively: **Likely / Possible / Unlikely**
    - Identify most common failure modes
+   - Note: Cognitive walkthrough is an expert inspection method, not an empirical test. Avoid inventing pseudo-quantitative percentages or completion times unless citing real usability test data.
 
 4. **Prioritize improvements:**
    - Quick wins (easy fixes, high impact)
@@ -253,7 +254,7 @@ Typical issues discovered and the metrics used to judge a walkthrough are in
 3. **Document assumptions**: What does the user know? What don't they know?
 4. **Be honest about issues**: Don't rationalize or excuse bad design
 5. **Provide actionable recommendations**: "Unclear" → "Add tooltip explaining X"
-6. **Quantify when possible**: "50% of users" vs. "some users"
+6. **Characterize scope without inventing numbers**: Describe user impact clearly (e.g., "Most novices will stumble on step 3 because...") without manufacturing specific percentages unless reporting measured data from empirical usability tests
 7. **Consider context**: Time pressure, mobile vs. desktop, distractions
 8. **Test assumptions**: Validate findings with actual users
 
