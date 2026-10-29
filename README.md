@@ -2,7 +2,7 @@
 
 ![Version](https://img.shields.io/badge/version-1.9.3-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Skills](https://img.shields.io/badge/skills-13-orange)
+![Skills](https://img.shields.io/badge/skills-14-orange)
 ![Agent Skills](https://img.shields.io/badge/agent%20skills-standard-purple)
 ![Commits](https://img.shields.io/github/commit-activity/m/mastepanoski/claude-skills)
 ![Last Commit](https://img.shields.io/github/last-commit/mastepanoski/claude-skills)
@@ -234,6 +234,30 @@ AI system governance using **ISO 42001:2023** standard:
 
 ---
 
+#### **iso-27090-ai-security** - AI Security Assessment
+**[→ View on skills.sh](https://skills.sh/mastepanoski/claude-skills/iso-27090-ai-security)**
+
+```bash
+npx skills add mastepanoski/claude-skills --skill iso-27090-ai-security
+```
+
+AI system security gap assessment using **ISO/IEC 27090:2026** guidance:
+- **7 security domains**: Governance, Supply chain & AIBOM, Data poisoning, Model protection, Inputs & evasion, Outputs, Monitoring & response
+- Threat-based checklist with 4-level maturity scale (0–3)
+- Finding prioritization matrix and CIA impact mapping
+- Client-ready gap assessment report and 30/90-day remediation action plan
+
+**Best for**: AI cybersecurity reviews, adversarial threat gap assessment, AIBOM diligence, ISO 27001/42001 technical readiness
+
+**Example usage:**
+```
+"Perform an ISO 27090 security gap assessment on our customer chatbot"
+"Audit our ML pipeline against AI-specific threats like poisoning and model theft"
+"Review our AI supply chain and model protection controls using ISO 27090"
+```
+
+---
+
 #### **nist-ai-rmf** - AI Risk Management
 **[→ View on skills.sh](https://skills.sh/mastepanoski/claude-skills/nist-ai-rmf)**
 
@@ -395,6 +419,7 @@ The AI will provide:
 | Fix navigation, labels, findability | `information-architecture-audit` |
 | Polish visual design | `ui-design-review` |
 | AI system governance | `iso-42001-ai-governance` |
+| AI security gap assessment | `iso-27090-ai-security` |
 | AI risk management | `nist-ai-rmf` |
 | LLM/GenAI security | `owasp-llm-top10` |
 | AI trustworthiness testing | `owasp-ai-testing` |
