@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.10.0] - 2026-10-29
+
 ### Added
 - `iso-27090-ai-security` skill: AI security gap assessment against the ISO/IEC 27090:2026 guidance. Includes a threat-based checklist across 7 security domains (governance, supply chain & AIBOM, data poisoning, model protection, inputs & evasion, outputs, monitoring & response), a 4-level maturity scale, finding prioritization matrix, and a client-ready gap report template with references in `references/`.
 
@@ -301,7 +303,8 @@ fix(nielsen): correct severity rating in example
 docs(readme): update installation instructions
 ```
 
-[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.9.3...HEAD
+[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.10.0...HEAD
+[1.10.0]: https://github.com/mastepanoski/claude-skills/compare/v1.9.3...v1.10.0
 [1.9.3]: https://github.com/mastepanoski/claude-skills/compare/v1.9.2...v1.9.3
 [1.9.2]: https://github.com/mastepanoski/claude-skills/compare/v1.9.1...v1.9.2
 [1.9.1]: https://github.com/mastepanoski/claude-skills/compare/v1.9.0...v1.9.1
