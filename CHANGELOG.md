@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.9.3] - 2026-10-28
+
+### Fixed
+- `cognitive-walkthrough`: replaced fabricated quantitative percentages and completion times with qualitative rating scales (Likely / Possible / Unlikely) and explicit methodology disclaimers in `SKILL.md` and reference templates. Cognitive walkthrough is an analytical inspection method, not an empirical test (closes #9).
+
+### Added
+- `.github/workflows/validate.yml`: automated GitHub Actions workflow to validate skill structure and run tests across Node.js 18.x, 20.x, and 22.x on push and pull requests.
+- `.github/workflows/codeql.yml`: CodeQL analysis workflow configuration for automated security scanning.
+
 ## [1.9.2] - 2026-10-10
 
 ### Changed
@@ -289,7 +298,10 @@ fix(nielsen): correct severity rating in example
 docs(readme): update installation instructions
 ```
 
-[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.9.0...HEAD
+[Unreleased]: https://github.com/mastepanoski/claude-skills/compare/v1.9.3...HEAD
+[1.9.3]: https://github.com/mastepanoski/claude-skills/compare/v1.9.2...v1.9.3
+[1.9.2]: https://github.com/mastepanoski/claude-skills/compare/v1.9.1...v1.9.2
+[1.9.1]: https://github.com/mastepanoski/claude-skills/compare/v1.9.0...v1.9.1
 [1.9.0]: https://github.com/mastepanoski/claude-skills/compare/v1.8.0...v1.9.0
 [1.8.0]: https://github.com/mastepanoski/claude-skills/compare/v1.7.1...v1.8.0
 [1.7.1]: https://github.com/mastepanoski/claude-skills/compare/v1.7.0...v1.7.1
