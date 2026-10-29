@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- `iso-27090-ai-security` skill: AI security gap assessment against the ISO/IEC 27090:2026 guidance. Includes a threat-based checklist across 7 security domains (governance, supply chain & AIBOM, data poisoning, model protection, inputs & evasion, outputs, monitoring & response), a 4-level maturity scale, finding prioritization matrix, and a client-ready gap report template with references in `references/`.
+
 ## [1.9.3] - 2026-10-28
 
 ### Fixed

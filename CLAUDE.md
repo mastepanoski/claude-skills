@@ -158,6 +158,7 @@ feat(wcag): Added comprehensive audit    # Capitalized, not imperative
 11. `gdpr-audit` - Technical GDPR audit of code, plans, schemas, or IaC: processing map + article-cited findings (not legal advice)
 12. `ai-assessment-scale` - Measure AI contribution to a project using the AI Assessment Scale (AIAS) 5-level framework
 13. `information-architecture-audit` - Information architecture (Rosenfeld/Morville four systems, 8 principles): organization, labeling, navigation, search, card sorting, tree testing
+14. `iso-27090-ai-security` - AI security assessment (ISO/IEC 27090:2026): Threat-based gap assessment across 7 domains (governance, supply chain/AIBOM, data poisoning, model protection, inputs/outputs, monitoring) with maturity scale and client-ready report
 
 ## Skill Quality Standards
 

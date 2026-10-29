@@ -37,9 +37,10 @@ that matches your target and skip passes that don't earn their keep.
 |---|-------|----------|
 | 1 | `iso-42001-ai-governance` | The management-system umbrella — frames governance, accountability, scope. |
 | 2 | `nist-ai-rmf` | Risk functions (Govern / Map / Measure / Manage) on top of that framing. |
-| 3 | `gdpr-audit` | Data-protection compliance for any personal data the system handles — builds a processing map and article-cited findings. Run it on the actual code/schema/IaC. |
-| 4 | `owasp-llm-top10` | LLM-specific vulnerability assessment — the "what risks exist" model. |
-| 5 | `owasp-ai-testing` | Hands-on trustworthiness testing — the "how to test" execution layer. Run last; it needs the scope and authorization the earlier passes surface. |
+| 3 | `iso-27090-ai-security` | AI system security guidance — evaluates protection against AI-specific threats across 7 domains with a threat-based checklist and maturity scale. |
+| 4 | `gdpr-audit` | Data-protection compliance for any personal data the system handles — builds a processing map and article-cited findings. Run it on the actual code/schema/IaC. |
+| 5 | `owasp-llm-top10` | LLM-specific vulnerability assessment — the "what risks exist" model. |
+| 6 | `owasp-ai-testing` | Hands-on trustworthiness testing — the "how to test" execution layer. Run last; it needs the scope and authorization the earlier passes surface. |
 
 ## The orthogonal one
 
